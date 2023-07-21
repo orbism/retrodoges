@@ -65,11 +65,12 @@ export default function RootLayout ({children,}: {children: React.ReactNode}) {
               
               {children}
 
-              <FooterRD />
+              
             
             </div>
             
         </main>
+        <FooterRD />
         </body>
 
     </html>

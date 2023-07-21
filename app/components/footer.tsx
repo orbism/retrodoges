@@ -12,6 +12,9 @@ import {
     faTelegramPlane
   } from "@fortawesome/free-brands-svg-icons";
 
+  import { PlayerRD } from "./player";
+
+
 export const FooterRD = () => {
   
   useEffect(() => {
@@ -35,24 +38,27 @@ export const FooterRD = () => {
   }, []);
 
   return (
-    <footer className="footer w-full mb-1">
-            <div className="float-left">
-                <div className="social-icons">
-                <a href="https://twitter.com/RetroDogeNFT">
-                  <FontAwesomeIcon icon={faTwitter} />
-                </a>
-                <a href="https://discord.com/invite/JNKbZur9gd">
-                  <FontAwesomeIcon icon={faDiscord} />
-                </a>
-                <a href="https://t.me/+1Ucic398KYA1NjNh">
-                  <FontAwesomeIcon icon={faTelegramPlane} />
-                </a>
-              </div>
-            </div>
-            <div className="float-right">
-              <p>Powered by <a href="https://twitter.com/NFDtoken" target="_blank">FeistyDAO</a></p>
-              <p>All Rights Reserved | Copyright 2023 <span>RetroDoges</span></p>
-            </div>
-    </footer>
+    <div className="stickyfooter w-full mb-1">
+
+      <PlayerRD />
+
+      <div className="social-icons">
+        <a href="https://twitter.com/RetroDogeNFT">
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
+        <a href="https://discord.com/invite/JNKbZur9gd">
+          <FontAwesomeIcon icon={faDiscord} />
+        </a>
+        <a href="https://t.me/+1Ucic398KYA1NjNh">
+          <FontAwesomeIcon icon={faTelegramPlane} />
+        </a>
+      </div>
+
+      <div className="copyright">
+        <p>Powered by <a href="https://twitter.com/NFDtoken" target="_blank">FeistyDAO</a></p>
+        <p>All Rights Reserved | Copyright 2023 <span>RetroDoges</span></p>
+      </div>
+    </div>
+            
   );
 };
