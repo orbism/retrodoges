@@ -18,9 +18,9 @@ const CarouselRD: React.FC<CarouselProps> = ({ images, slideInterval = 3000 }) =
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 2000,
     cssEase: 'ease-in-out',
-    arrows: true,
+    arrows: false,
     adaptiveHeight: true
     };
 

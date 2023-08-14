@@ -9,6 +9,11 @@ const images = [
     '/RD5.jpg',
     '/RD6.jpg',
     '/RD7.jpg',
+    '/RD8.jpg',
+    '/RD9.jpg',
+    '/RD10.jpg',
+    '/RD11.jpg',
+    '/RD12.jpg',
   ];
 
   const HomePage = () => {

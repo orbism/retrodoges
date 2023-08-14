@@ -490,8 +490,8 @@ a {
   }
   
   .team-member {
-    min-width: calc(25% - 1rem);
-    flex-basis: calc(25% - 1rem);
+    min-width: calc(33% - 1rem);
+    flex-basis: calc(33% - 1rem);
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
@@ -499,7 +499,7 @@ a {
     border-radius: 15px;
     box-shadow: rgba(255, 60, 50, 0.5) 0 1px 10px;
     background: rgba(0,0,0,0.5);
-    min-width: 20%;
+    min-width: 30%;
     padding: 1em 3em;
     transition: 0.1s ease all;
     &:hover {
@@ -507,19 +507,25 @@ a {
         box-shadow: rgba(255, 0, 50, 0.8) 0 1px 15px;
     }
   }
-  
+
   .team-member img {
-    width: 150px;
+    width: 200px;
     text-align: center;
     margin: 0 auto;
+    object-fit: cover;
+    border-radius: 50%;
+    
   }
   
   .team-member h3 {
     margin-top: 1rem;
+    font-size: 20px;
+    font-weight:bold;
   }
   
   .team-member p {
     margin-top: 0.5rem;
+    font-size: 15px;
   }
 
 .stickyfooter {
@@ -583,3 +589,45 @@ a {
         }
     }
 }
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 2em;
+    padding-top: 2em;
+
+    .imgcont {
+        flex: 1 0 10%; // Flex-grow, flex-shrink, flex-basis
+        max-width: 10%;
+        position: relative;
+        padding-bottom: 10%; // This will maintain the aspect ratio. Adjust if needed.
+        margin-bottom: 1%;
+
+        img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        }
+
+        // Media query for responsiveness on small screens
+        @media screen and (max-width: 600px) {
+        flex-basis: 50%;
+        max-width: 50%;
+        padding-bottom: 50%;
+            flex: 1 0 5%;
+            max-width: 5%;
+            padding-bottom: 5%;
+
+        }
+        &.big {
+            flex: 1 0 20%;
+            max-width: 20%;
+            padding-bottom: 20%;
+        }
+    }
+}
+  
+  
