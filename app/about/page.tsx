@@ -68,7 +68,7 @@ export default function Page() {
                         <p>Summer Intern</p>
                     </div>
                     <div className="team-member">
-                        <img src="/Dres.jpg" alt="Team member photo"/>
+                        <img src="/dres.jpg" alt="Team member photo"/>
                         <h3>Dresdlr</h3>
                         <p>Advisor / Helper</p>
                     </div>
