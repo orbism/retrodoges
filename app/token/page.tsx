@@ -10,21 +10,12 @@ export default function Page() {
                 <p>The Retrodoges collection has 6969 unique combinations.</p>
                 <p>There are 14 different trait layers.</p>
                 <p>There are exactly 3 types of Doges.</p>
-                <h3>NEED TO UPDATE IMAGES FOR THESE</h3>
 
-                <div className="team tunnel">
-                    <div className="team-member">
-                        <img src="/rd_1.png" alt="Team member photo"/>
-                        <h3>Common Doge</h3>
-                    </div>
-                    <div className="team-member">
-                        <img src="/rd_2.png" alt="Team member photo"/>
-                        <h3>Rare Doge</h3>
-                    </div>
-                    <div className="team-member">
-                        <img src="/rd_3.png" alt="Team member photo"/>
-                        <h3>Legendary Doge</h3>
-                    </div>
+                
+                <div className="image-gallery">
+                    <div className="imgcont big"><img src="common.jpg" alt="common retrodoge"/><h3>Common Doge</h3></div>
+                    <div className="imgcont big"><img src="rare.jpg" alt="rare retrodoges"/><h3>Rare Doge</h3></div>
+                    <div className="imgcont big"><img src="legendary.jpg" alt="legendary retrodoge"/><h3>Legendary Doge</h3></div>
                 </div>
             </>
         },
@@ -34,22 +25,10 @@ export default function Page() {
             content: <>
                 <p>All the traits are generated in JSON files, distributed, and used to generate all PFPs in .avif format (2D) as well as for hidden contents in .glb & .vrm files (3D). 
  </p>
-                <p>
-                    NEED GFX ASSETS / BRANDING / GIF
-                </p>
-                <div className="team tunnel">
-                    <div className="team-member">
-                        <img src="/rd_1.png" alt="Team member photo"/>
-                        <h3>Common Doge</h3>
-                    </div>
-                    <div className="team-member">
-                        <img src="/rd_2.png" alt="Team member photo"/>
-                        <h3>Rare Doge</h3>
-                    </div>
-                    <div className="team-member">
-                        <img src="/rd_3.png" alt="Team member photo"/>
-                        <h3>Legendary Doge</h3>
-                    </div>
+                <div className="image-gallery">
+                    <div className="imgcont fit"><img src="avif.jpg" alt="retrodoges avif asset"/><h3>.avif</h3></div>
+                    <div className="imgcont fit"><img src="vrm.png" alt="retrodoges vrm asset"/><h3>.vrm</h3></div>
+                    <div className="imgcont fit"><img src="glb.png" alt="retrodoges glb asset"/><h3>.glb</h3></div>
                 </div>
 
             </>

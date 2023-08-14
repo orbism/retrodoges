@@ -68,7 +68,7 @@ export default function Page() {
                         <p>Summer Intern</p>
                     </div>
                     <div className="team-member">
-                        <img src="/Dres.png" alt="Team member photo"/>
+                        <img src="/Dres.jpg" alt="Team member photo"/>
                         <h3>Dresdlr</h3>
                         <p>Advisor / Helper</p>
                     </div>
@@ -104,6 +104,8 @@ export default function Page() {
                     <div className="imgcont big"><img src="hologramlabs.gif" alt="Hologram Labs"/></div>
                     <div className="imgcont big"><img src="moemate.png" alt="Moemate by Webaverse"/></div>
                 </div>
+
+                <img className="centered" src="/rdgif1.gif" alt="utility"/>
             </>
         },
     ];

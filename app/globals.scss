@@ -25,6 +25,17 @@
 //vars
 $header-height: 80px;
 
+h2.important {
+    font-size: 26px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid orange;
+    color: var(--orange);
+    text-indent: 10px;
+    padding-right: 10px;
+    display: block;
+    width: max-content;
+}
+
 body {
     background: no-repeat url(/bannerbg.jpg) top center;
     background-color: black;
@@ -611,6 +622,12 @@ a {
         width: 100%;
         height: auto;
         }
+        h3 {
+            position: absolute;
+            bottom: -40px;
+            width: 100%;
+            text-align: center;
+        }
 
         // Media query for responsiveness on small screens
         @media screen and (max-width: 600px) {
@@ -627,7 +644,22 @@ a {
             max-width: 20%;
             padding-bottom: 20%;
         }
+        &.huge {
+            flex: 1 0 45%;
+            max-width: 45%;
+            padding-bottom: 30%;
+        }
+        &.fit {
+            flex: 1 0 25%;
+            max-width: 25%;
+            padding-bottom: 25%;
+            img {
+            }
+        }
     }
 }
   
+.centered {
+    margin: 0 auto 2em;
+}
   
