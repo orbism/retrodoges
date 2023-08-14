@@ -294,6 +294,8 @@ a {
     width: 100%;
     display: block;
     border: none;
+    border-radius:10px;
+    background: rgba(0,0,0,0.5);
     .tab {
         color: var(--orange);
         flex-direction: row;
