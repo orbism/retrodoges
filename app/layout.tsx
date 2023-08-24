@@ -42,7 +42,7 @@ export default function RootLayout ({children,}: {children: React.ReactNode}) {
       <meta property="og:type" content="website"/>
       <meta property="og:title" content="R E T R O D O G E S"/>
       <meta property="og:description" content="retrodoges yo!"></meta>
-      <meta property="og:image" content="/RetroDoge.jpg"/>
+      <meta property="og:image" content="/RetroDoges.jpg"/>
 
       <meta name="twitter:card" content="summary_large_image"/>
       <meta property="twitter:domain" content="retrodoges.com"/>
@@ -51,7 +51,7 @@ export default function RootLayout ({children,}: {children: React.ReactNode}) {
       <meta property="twitter:url" content="https://retrodoges.com/"/>
       <meta name="twitter:title" content="Retrodoges"/>
       <meta name="twitter:description" content="retrodoges yo!"></meta>
-      <meta name="twitter:image" content="/RetroDoge.jpg"/>
+      <meta name="twitter:image" content="/RetroDoges.jpg"/>
       
     </head>
 
