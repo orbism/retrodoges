@@ -122,7 +122,7 @@ export default function Page() {
             content: <>
                 <p>Experience Grand Theft Auto like never before with your RD identity. Submit your VRM to the Chilling Chiliz team and watch as your RD navigates the thrilling world of GTA. </p>
                     
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VoPb78cJ_LY?si=dJXa_Hvn0Qu8zZKJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VoPb78cJ_LY?si=dJXa_Hvn0Qu8zZKJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
                 <p>Dive into the action at [<a target="_blank" href="https://linktr.ee/chillingchiliz">Chilling Chiliz</a>] and embrace the fusion of virtual and gaming realms.</p>
 
