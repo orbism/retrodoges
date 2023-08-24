@@ -1,9 +1,8 @@
-"use client"; // this is a client component
+"use client"; 
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-// import { ConnectWallet } from "./ConnectWallet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
@@ -13,7 +12,7 @@ import {
     faTwitter,
     faDiscord,
     faTelegramPlane
-  } from "@fortawesome/free-brands-svg-icons";
+} from "@fortawesome/free-brands-svg-icons";
 
 export const Nav = () => {
   const navigation = useRouter();
@@ -46,6 +45,10 @@ export const Nav = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <>
       <div className={`nav-container ${isSticky ? "sticky" : ""}`}>
@@ -57,16 +60,16 @@ export const Nav = () => {
           </div>
           <div className={`menu ${isOpen ? "open" : ""}`}>
             <Link legacyBehavior href="/home">
-              <a className={pathname === "/home" ? "active" : ""}>Home</a>
+              <a onClick={handleLinkClick} className={pathname === "/home" ? "active" : ""}>Home</a>
             </Link>
             <Link legacyBehavior href="/about">
-              <a className={pathname === "/about" ? "active" : ""}>About</a>
+              <a onClick={handleLinkClick} className={pathname === "/about" ? "active" : ""}>About</a>
             </Link>
             <Link  legacyBehavior href="/token">
-              <a className={pathname === "/token" ? "active" : ""}>Token</a>
+              <a onClick={handleLinkClick} className={pathname === "/token" ? "active" : ""}>Token</a>
             </Link>
             <Link  legacyBehavior href="/utility">
-              <a className={pathname === "/utility" ? "active" : ""}>Utility</a>
+              <a onClick={handleLinkClick} className={pathname === "/utility" ? "active" : ""}>Utility</a>
             </Link>
             {/* <ConnectWallet /> */}
             
@@ -91,6 +94,6 @@ export const Nav = () => {
           </div>
         </nav>
       </div>
-      </>
+    </>
   );
 };

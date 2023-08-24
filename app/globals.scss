@@ -30,7 +30,7 @@ h2.important {
     margin-bottom: 30px;
     border-bottom: 1px solid orange;
     color: var(--orange);
-    text-indent: 10px;
+    padding-left: 10px;
     padding-right: 10px;
     display: block;
     width: max-content;
@@ -231,6 +231,8 @@ a {
 .menu-toggle {
     display: none;
     cursor: pointer;
+    position:absolute;
+    right: 1em;
 }
 
 @media (max-width: 768px) {
@@ -249,6 +251,7 @@ a {
     .menu.open {
         top: var(--header-height);
         background: #222;
+        top:0;
     }
     .menu a,
     .social-icons a {
@@ -257,6 +260,44 @@ a {
     }
     .menu-toggle {
         display: block;
+    }
+    .nav {
+        .social-icons {
+            top: 1em;
+            margin-right:20px;
+        }
+        .menu-toggle {
+            top: 1em;
+            font-size: 1.3em;
+        }
+    }
+    .music-player {
+        max-width: 150px;
+    }
+    .stickyfooter {
+        .social-icons {
+            padding-top: 0;
+            z-index: 30;
+        }
+        .copyright {
+            bottom: 8px;
+        }
+    }
+    .tab-list {
+        max-width: 90vw;
+    }
+    .tab-panels {
+        max-width: 90vw;
+        h2.important {
+            width: auto;
+            border-bottom: none;
+        }
+    }
+    .team-member {
+        padding: 1em !important; 
+        img, h3, p {
+            text-align: center;
+        }
     }
 }
 .homepage {
@@ -317,6 +358,16 @@ a {
             text-align: left;
         }
     }
+}
+
+body.\/utility {
+    .tab-list {
+        .tab {
+            letter-spacing: -2px;
+            padding: 10px 0px 10px 0px;
+        }
+    }
+
 }
 
 .upone {
@@ -567,15 +618,14 @@ a {
     span {
         font-weight: bold;
     }
-
-    .copyright {
-        text-align: right;
-        position: absolute;
-        right: 15px;
-        bottom: 20px;
-    }
 }
 
+.copyright {
+    text-align: right;
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+}
 
 .missing {
     padding: 2em;

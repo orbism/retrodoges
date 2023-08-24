@@ -80,7 +80,7 @@ export default function Page() {
                     <div className="team-member">
                         <img src="/orb.jpg" alt="Team member photo"/>
                         <h3>Orb</h3>
-                        <p>Dev/Operations</p>
+                        <p>DevOps / Web</p>
                     </div>
                     <div className="team-member">
                         <img src="/chax.jpg" alt="Team member photo"/>
