@@ -99,6 +99,7 @@ export const PlayerRD = () => {
       </div>
       <div className="text-container">
         <h1 className="label">Feisty Beats!</h1>
+        <span className="artist"><a href="https://twitter.com/Maroye" target="_blank">music by Maroye</a></span>
         <div className="scrubber" 
           onMouseDown={handleScrubStart} 
           onMouseMove={handleScrubMove} 

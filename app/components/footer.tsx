@@ -43,13 +43,13 @@ export const FooterRD = () => {
       <PlayerRD />
 
       <div className="social-icons">
-        <a href="https://twitter.com/RetroDogeNFT">
+        <a target="_blank" href="https://twitter.com/RetroDogeNFT">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-        <a href="https://discord.com/invite/JNKbZur9gd">
+        <a target="_blank" href="https://discord.com/invite/JNKbZur9gd">
           <FontAwesomeIcon icon={faDiscord} />
         </a>
-        <a href="https://t.me/+1Ucic398KYA1NjNh">
+        <a target="_blank" href="https://t.me/+1Ucic398KYA1NjNh">
           <FontAwesomeIcon icon={faTelegramPlane} />
         </a>
       </div>
