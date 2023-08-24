@@ -260,14 +260,18 @@ a {
     }
     .menu-toggle {
         display: block;
+        svg {
+            color: aqua;
+        }
     }
-    .nav {
+    .nav-container.sticky {
         .social-icons {
-            top: 1em;
+            top: 14px;
+            padding-top: 0;
             margin-right:20px;
         }
         .menu-toggle {
-            top: 1em;
+            top: 11px;
             font-size: 1.3em;
         }
     }
@@ -299,7 +303,24 @@ a {
             text-align: center;
         }
     }
+    .music-player {
+        .text-container {
+            .label {
+                font-size: 12px;
+            }
+            span.artist {
+                font-size: 10px;
+                line-height: 12px;
+                padding-top: 3px;
+            }
+            .scrubber {
+                display: none;
+            }
+        }
+    }
+
 }
+
 .homepage {
     height: 100vh;
     width: auto;
