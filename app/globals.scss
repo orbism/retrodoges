@@ -287,20 +287,32 @@ a {
             bottom: 8px;
         }
     }
+    .tabbox.items-start {
+        width: 98vw;
+    }
     .tab-list {
-        max-width: 90vw;
+        max-width: 98vw;
     }
     .tab-panels {
-        max-width: 90vw;
+        max-width: 98vw;
+
         h2.important {
             width: auto;
             border-bottom: none;
         }
     }
-    .team-member {
-        padding: 1em !important; 
-        img, h3, p {
-            text-align: center;
+    .team {
+        .team-member {
+            padding: 1em !important; 
+            img, h3, p {
+                text-align: center;
+            }
+            h3 {
+                font-size: 16px;
+            }
+            p {
+                font-size: 13px;
+            }
         }
     }
     .music-player {
@@ -320,6 +332,53 @@ a {
     }
 
 }
+
+@media (max-width: 390px) {
+    .nav-container {
+        .nav {
+            .social-icons {
+                top: 1em;
+            }
+            .menu-toggle {
+                top: 1.5em;
+            }
+        }
+    }
+    .team {
+        .team-member {
+            h3 {
+                font-size: 14px;
+                letter-spacing: -1px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+    .music-player {
+        zoom: 0.8;
+    }
+    .copyright {
+        font-size: 8px;
+    }
+    .tab-content {
+        .image-gallery {
+            .imgcont {
+                &.big {
+                    max-width: 24%;
+                    padding-bottom: 30%;
+                }
+                img {
+                    padding-bottom: 10px;
+                }
+                h3 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
 
 .homepage {
     height: 100vh;
@@ -735,4 +794,10 @@ body.\/utility {
   
 .centered {
     margin: 0 auto 2em;
+}
+
+.ytvideo {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-width: 560px;
 }
