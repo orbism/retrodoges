@@ -75,7 +75,7 @@ export const Nav = () => {
             
           </div>
           <div className="social-icons">
-              <a target="_blank" href="https://twitter.com/RetroDogeNFT">
+              <a target="_blank" href="https://twitter.com/RetroDogesNFT">
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
               <a target="_blank" href="https://discord.com/invite/JNKbZur9gd">
