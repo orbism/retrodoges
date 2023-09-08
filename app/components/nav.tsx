@@ -81,7 +81,7 @@ export const Nav = () => {
               <a target="_blank" href="https://discord.com/invite/JNKbZur9gd">
                 <FontAwesomeIcon icon={faDiscord} />
               </a>
-              <a target="_blank" href="https://t.me/+qGOT-8-fbDg1M2Nk">
+              <a target="_blank" href="https://t.me/+B7vcvhfeyeYzMDZk">
                 <FontAwesomeIcon icon={faTelegramPlane} />
               </a>
             </div>
