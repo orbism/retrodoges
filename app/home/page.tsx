@@ -31,6 +31,7 @@ const images = [
         </div>
       
         <CarouselRD images={images} />
+        <a className="raritysniper" href="https://raritysniper.com/nft-drops-calendar">NFT Drops</a>
       </div>
 
     );

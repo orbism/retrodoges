@@ -85,7 +85,7 @@ a {
     height:auto;
     min-height: 100vh;
 }
-.logo {
+.G {
     text-indent: -9999px;
     background-color: transparent;
     background-size: contain;
@@ -851,4 +851,10 @@ body.\/utility {
     aspect-ratio: 16 / 9;
     width: 100%;
     max-width: 560px;
+}
+
+.raritysniper {
+    text-indent: -9999px;
+    width: 0;
+    height: 0;
 }
