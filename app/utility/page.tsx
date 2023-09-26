@@ -94,7 +94,7 @@ export default function Page() {
             title: 'Monaverse',
             tabTitle: <>Monaverse: Shape Your Reality with Monaverse</>,
             content: <>
-                <p>In Monaverse's immersive metaverse, your RD takes on a new life. Upload your VRM to our server and watch as your character becomes a part of your chosen environment. </p>
+                <p>In Monaverse's immersive metaverse, your RD takes on a new life. Upload your VRM to their server and watch as your character becomes a part of your chosen environment. </p>
 
                 <iframe className="ytvideo" src="https://www.youtube.com/embed/GFS_lmTnI8A?si=bfclmggmkrp3FFX8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     
@@ -135,7 +135,7 @@ export default function Page() {
             content: <>
                 <p>Craftopia takes gaming to a whole new level by allowing you to upload your VRM and become your RD character. </p>
                     
-                <iframe className="ytvideo" src="https://www.youtube.com/embed/85dWWg7fDmA?si=BQxOpiqQmGtNn7kn" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe className="ytvideo" src="ttps://www.youtube.com/embed/tVHg_PY4GNs?si=ASgetlPZKjavXlbw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 
                 <p>Immerse yourself in this enchanting world and shape your own adventure. Begin your journey at [<a target="_blank" href="https://store.steampowered.com/app/1307550/Craftopia/">Craftopia</a>] and explore a universe where creativity knows no bounds.</p>
                 
@@ -143,14 +143,14 @@ export default function Page() {
             </>
         },
         {
-            title: 'Vrast',
-            tabTitle: <>Vrast: Unleash Your Inner Fighter</>,
+            title: 'Upstreet',
+            tabTitle: <>Upstreet - Create Endlessly</>,
             content: <>
-                <p>Immerse yourself in the adrenaline-pumping world of Vrast, a dynamic fighting game reminiscent of Tekken. </p>
+                <p>Drag and drop your avatar into the wonderful world of Upstreet. This new metaverse also offers many promising and fun opportunities where builders can create endlessly. </p>
                     
                 <iframe className="ytvideo" src="https://www.youtube.com/embed/ez7iDmxNoek?si=0pce4lu6XAYXrqlT" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 
-                <p>Through the power of VRM, step into the shoes of your customized character and engage in intense battles. Connect by simply uploading your VRM, and experience the thrill at [<a target="_blank" href="https://rc-cobalt.booth.pm/items/1756359">Vrast</a>], where every move you make shapes your destiny in the arena.</p>
+                <p><a target="_blank" href="https://upstreet.ai/">Check out Upstreet by clicking here.</a></p>
 
                 <br/>
             </>

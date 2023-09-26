@@ -862,3 +862,19 @@ body.\/utility {
     width: 0;
     height: 0;
 }
+
+.minter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; // Assuming you want it centered relative to the viewport height
+}
+
+iframe {
+    margin-top: 2em;
+}
+
+iframe  svg {
+    display: none;
+    color: #fff;
+}
