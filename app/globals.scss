@@ -673,6 +673,10 @@ body.\/utility {
       animation: flicker linear infinite;
       animation-duration: var(--flicker-duration,1s);
   }
+  .logo a img.flicker-image {
+    height: 69px;
+    width: auto;
+  }
   
 
   .team {
