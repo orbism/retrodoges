@@ -148,7 +148,7 @@ export default function Page() {
             content: <>
                 <p>Drag and drop your avatar into the wonderful world of Upstreet. This new metaverse also offers many promising and fun opportunities where builders can create endlessly. </p>
                     
-                <iframe className="ytvideo" src="https://www.youtube.com/embed/ez7iDmxNoek?si=0pce4lu6XAYXrqlT" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe className="ytvideo" src="https://www.youtube.com/watch?v=tVHg_PY4GNs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 
                 <p><a target="_blank" href="https://upstreet.ai/">Check out Upstreet by clicking here.</a></p>
 
