@@ -20,7 +20,7 @@ export default function Page() {
                 </p>
                 
                 <div className="image-gallery">
-                    <div className="imgcont massive"><img src="clickvrm.png" alt="metaverse"/></div>
+                <div className="imgcont massive2"><img src="tokenid.png" alt="metaverse"/></div>
                 </div>
 
                 <p>
@@ -28,7 +28,8 @@ export default function Page() {
 
 
                 <div className="image-gallery">
-                    <div className="imgcont massive2"><img src="tokenid.png" alt="metaverse"/></div>
+                    <div className="imgcont massive"><img src="clickvrm.png" alt="metaverse"/></div>
+
                 </div>
 
                     Once you have your VRM file, each platform has an upload section where you can add your VRM avatar file.
