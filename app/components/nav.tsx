@@ -71,6 +71,9 @@ export const Nav = () => {
             <Link  legacyBehavior href="/utility">
               <a onClick={handleLinkClick} className={pathname === "/utility" ? "active" : ""}>Utility</a>
             </Link>
+            <Link  legacyBehavior href="/faq">
+              <a onClick={handleLinkClick} className={pathname === "/faq" ? "active" : ""}>FAQ</a>
+            </Link>
             {/* <ConnectWallet /> */}
             
           </div>

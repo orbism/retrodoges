@@ -844,8 +844,16 @@ body.\/utility {
             flex: 1 0 25%;
             max-width: 25%;
             padding-bottom: 25%;
-            img {
-            }
+        }
+        &.massive {
+            flex: 1 0 70%;
+            max-width: 70%;
+            padding-bottom: 34%
+        }
+        &.massive2 {
+            flex: 1 0 70%;
+            max-width: 70%;
+            padding-bottom: 20%
         }
     }
 }
