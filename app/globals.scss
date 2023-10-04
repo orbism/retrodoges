@@ -893,9 +893,62 @@ body.\/utility {
 
 iframe {
     margin-top: 2em;
+    padding: 0 0 0 0 !important;
 }
 
 iframe  svg {
     display: none;
     color: #fff;
 }
+
+.marquee-container {
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+    margin-top: 77px;
+    position: relative;
+    margin-left: -100px;
+    width: 100vw;
+    
+    a {
+        text-indent: -9999px;
+        position: absolute;
+        width: 100vw;
+        z-index: 300;
+        height: 75px;
+    }
+
+    span {
+        padding-left: 35px;
+        color: cyan;
+        animation: flicker linear infinite;
+        animation-duration: var(--flicker-duration,8s);
+    }
+  
+    .marquee {
+      top: 0;
+      left: 100%;
+      width: 100%;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      animation: marquee 30s linear infinite;
+      margin-right: 0px;
+    }
+  
+    .marquee2 {
+      animation-delay: 15s;
+    }
+    b {
+      padding-left: 10px;
+    }
+  }
+  
+  @keyframes marquee {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%
+    }
+  }
