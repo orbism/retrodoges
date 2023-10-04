@@ -957,3 +957,37 @@ iframe  svg {
       left: -100%
     }
   }
+
+a.opensea {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    text-align:unset;
+    overflow:hidden;
+    background: no-repeat url(/opensea.png) center center;
+    filter: hue-rotate(150deg);
+    background-size: contain;
+    text-indent: -9999px;
+    padding-bottom: 5px;
+    margin-bottom: -4px;
+}
+a.etherscan {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    text-align:unset;
+    overflow:hidden;
+    background: no-repeat url(/etherscan.png) center center;
+    filter: hue-rotate(150deg);
+    background-size: contain;
+    text-indent: -9999px;
+    padding-bottom: 5px;
+    margin-bottom: -4px;
+}
+
+.stickyfooter a.opensea, .stickyfooter a.etherscan {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}

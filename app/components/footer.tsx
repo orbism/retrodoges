@@ -43,7 +43,7 @@ export const FooterRD = () => {
       <PlayerRD />
 
       <div className="social-icons">
-        <a target="_blank" href="https://twitter.com/RetroDogesNFT">
+        {/* <a target="_blank" href="https://twitter.com/RetroDogesNFT">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
         <a target="_blank" href="https://discord.com/invite/JNKbZur9gd">
@@ -51,7 +51,14 @@ export const FooterRD = () => {
         </a>
         <a target="_blank" href="https://t.me/+B7vcvhfeyeYzMDZk">
           <FontAwesomeIcon icon={faTelegramPlane} />
+        </a> */}
+
+        <a className="opensea" target="_blank" href="https://opensea.io/collection/retrodogesnft">
+          <span>Opensea</span>
         </a>
+        <a className="etherscan" target="_blank" href="https://etherscan.io/address/0x682270ffb81db5834b4049dbf20fe2395568ac22">
+          <span>Etherscan</span>
+        </a>        
       </div>
 
       <div className="copyright">

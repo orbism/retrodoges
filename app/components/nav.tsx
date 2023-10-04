@@ -87,6 +87,14 @@ export const Nav = () => {
               <a target="_blank" href="https://t.me/+B7vcvhfeyeYzMDZk">
                 <FontAwesomeIcon icon={faTelegramPlane} />
               </a>
+
+              <a className="opensea" target="_blank" href="https://opensea.io/collection/retrodogesnft">
+                <span>Opensea</span>
+              </a>
+              <a className="etherscan" target="_blank" href="https://etherscan.io/address/0x682270ffb81db5834b4049dbf20fe2395568ac22">
+                <span>Etherscan</span>
+              </a>
+
             </div>
           <div className="menu-toggle" onClick={toggleMenu}>
             {isOpen ? (
