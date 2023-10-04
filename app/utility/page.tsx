@@ -135,7 +135,7 @@ export default function Page() {
             content: <>
                 <p>Craftopia takes gaming to a whole new level by allowing you to upload your VRM and become your RD character. </p>
                     
-                <iframe className="ytvideo" src="ttps://www.youtube.com/embed/tVHg_PY4GNs?si=ASgetlPZKjavXlbw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe className="ytvideo" src="https://www.youtube.com/embed/tVHg_PY4GNs?si=ASgetlPZKjavXlbw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 
                 <p>Immerse yourself in this enchanting world and shape your own adventure. Begin your journey at [<a target="_blank" href="https://store.steampowered.com/app/1307550/Craftopia/">Craftopia</a>] and explore a universe where creativity knows no bounds.</p>
                 
@@ -148,7 +148,7 @@ export default function Page() {
             content: <>
                 <p>Drag and drop your avatar into the wonderful world of Upstreet. This new metaverse also offers many promising and fun opportunities where builders can create endlessly. </p>
                     
-                <iframe className="ytvideo" src="https://www.youtube.com/watch?v=tVHg_PY4GNs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tVHg_PY4GNs?si=89TUFiQJrorpCoSp" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 
                 <p><a target="_blank" href="https://upstreet.ai/">Check out Upstreet by clicking here.</a></p>
 
