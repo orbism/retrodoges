@@ -246,6 +246,11 @@ a {
 }
 
 @media (max-width: 770px) {
+
+    .marquee-container {
+        margin-top: -30px !important;
+        margin-left: 0px !important;
+    }
     .menu {
         position: fixed;
         top: -100%;
@@ -908,7 +913,7 @@ iframe  svg {
     margin-top: 77px;
     position: relative;
     margin-left: -100px;
-    width: 100vw;
+    width: 105vw;
     
     a {
         text-indent: -9999px;
