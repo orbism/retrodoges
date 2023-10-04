@@ -60,6 +60,12 @@ body.\/token {
     background-attachment: fixed;
     background-color: #111;
 }
+body.\/mint {
+    background: no-repeat url(/mintingnow.jpg) bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #111;
+}
 
 a {
     color: var(--orange);
@@ -166,12 +172,13 @@ a {
 .nav-container {
     width: 100%;
     transition: all 0.3s ease-in-out;
-    border-bottom: none;
+    border-bottom: 1px solid #222;
+    background-color: rgba(0,0,0,0.9);
 }
 .nav-container.sticky {
     position: fixed;
     top: 0;
-    background-color: rgba(0,0,0,0.9);;
+    background-color: rgba(0,0,0,0.9);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
     border-bottom: 1px solid #222;
     height: 60px;
@@ -284,6 +291,7 @@ a {
     
     .nav-container.sticky {
         position: relative;
+        background-color: rgba(0,0,0,0.9);
         .social-icons {
             top: 14px;
             padding-top: 0;
@@ -374,6 +382,7 @@ a {
             }
         }
         &.sticky {
+            background-color: rgba(0,0,0,0.9);
             .nav {
                 .menu-toggle {
                     top: 0.6em;
