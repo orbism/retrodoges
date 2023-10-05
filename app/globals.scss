@@ -369,6 +369,9 @@ a {
 }
 
 @media (max-width: 390px) {
+    .sale {
+        margin-left: -200px;
+    }
     .header {
         max-width: 100vw;
     }
@@ -990,4 +993,21 @@ a.etherscan {
     height: 20px;
     display: inline-block;
     margin-top: 20px;
+}
+.sale {
+    width: 150px;
+    height: 150px;
+    background: url(/sale.png) no-repeat center center;
+    position: absolute;
+    top: 5em;
+    left: 50%;
+    z-index: 310;
+    transform: rotate(-10deg);
+    filter: invert(100);
+    margin-left: -360px;
+}
+@media (max-width: 390px) {
+    .sale {
+        margin-left: -200px;
+    }
 }
