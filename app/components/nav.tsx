@@ -91,7 +91,7 @@ export const Nav = () => {
               <a className="opensea" target="_blank" href="https://opensea.io/collection/retrodogesnft">
                 <span>Opensea</span>
               </a>
-              <a className="etherscan" target="_blank" href="https://etherscan.io/address/0x682270ffb81db5834b4049dbf20fe2395568ac22">
+              <a className="etherscan" target="_blank" href="https://etherscan.io/address/0xeeecde100b55f135a40ca9d92a52bd7723235814">
                 <span>Etherscan</span>
               </a>
 
