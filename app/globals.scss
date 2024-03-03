@@ -895,8 +895,30 @@ body.\/utility {
 .minter {
     display: flex;
     align-items: center;
-    justify-content: center;
-    min-height: 100vh; // Assuming you want it centered relative to the viewport height
+    justify-content: center;// Assuming you want it centered relative to the viewport height
+    text-align: center;
+    height: 100vh;
+    .soldout {
+        position: relative;
+        padding: 16px 16px 4px;
+        top: 0px;
+        border: 1px solid rgb(255, 50, 200);
+        box-shadow: rgb(255, 50, 200) 0px 0px 10px;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 5px;
+        animation: flicker2 linear infinite;
+        animation-duration: var(--flicker-duration, 8s);
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            color: white;
+        }
+        p {
+            padding: 1rem;
+        }
+    }
+    
 }
 
 iframe {

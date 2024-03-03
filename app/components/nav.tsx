@@ -59,9 +59,7 @@ export const Nav = () => {
             </Link>
           </div>
           <div className={`menu ${isOpen ? "open" : ""}`}>
-            <Link legacyBehavior href="/mint">
-              <a onClick={handleLinkClick} className={pathname === "/mint" ? "active" : ""}>Mint Now</a>
-            </Link>
+
             <Link legacyBehavior href="/about">
               <a onClick={handleLinkClick} className={pathname === "/about" ? "active" : ""}>About</a>
             </Link>
@@ -73,6 +71,9 @@ export const Nav = () => {
             </Link>
             <Link  legacyBehavior href="/faq">
               <a onClick={handleLinkClick} className={pathname === "/faq" ? "active" : ""}>FAQ</a>
+            </Link>
+            <Link legacyBehavior href="/mint">
+              <a onClick={handleLinkClick} className={pathname === "/mint" ? "active" : ""}>Sold Out!</a>
             </Link>
             {/* <ConnectWallet /> */}
             
