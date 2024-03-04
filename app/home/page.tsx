@@ -23,58 +23,6 @@ const images = [
     return (
     
       <div className="homepage">
-
-          <div className="position-relative marquee-container d-none d-sm-block">
-          <a href="https://retrodoges.com/mint">.</a>
-            
-
-            <div className="marquee d-flex justify-content-around">
-
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-
-
-            </div>
-            <div className="marquee marquee2 d-flex justify-content-around">
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-              <span>MINTING NOW</span>
-            </div>
-          </div>
         
         <div className="infomatic">
           <p>
